@@ -1,0 +1,108 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-text{
+    color: rgb(133, 47, 90);
+}
+h1{
+    size: 250px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.section1{
+    display: flex;
+    height: 50%;
+}
+
+.display-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+
+.rating{
+    width: 50%;
+    / height: 400px; /
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.stars img{
+    width: 25px;
+    height: 25px;
+}
+.desc{
+
+}
+
+
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+
+}
+
+.section2 .card {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(59, 23, 41);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    border-radius: 10px 10px;
+}
+
+ .card img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+
+}
+/.title{
+    display: flex;
+    flex-direction: column;
+}*/
+.card p {
+    display:flex;
+}
+#card1{
+    position: relative;
+    top: 20px;
+    right: -21px;
+
+}
+#card2{
+    position: relative;
+    top: 40px;
+    right: -41px;
+}
